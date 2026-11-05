@@ -2,3 +2,6 @@
 https://hub.docker.com/repositories/azhar9983
 
 #docker_hub_images:
+docker.io/azhar9983/flask-node-app-flask-backend
+docker.io/azhar9983/flask-node-app-node-frontend
+
