@@ -1,0 +1,4 @@
+flask-node-app/backend/penv
+flask-node-app/frontend/node_modules
+flask-node-app/frontend/package-lock.json
+

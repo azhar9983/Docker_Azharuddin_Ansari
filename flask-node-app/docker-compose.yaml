@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  flask-backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./shared-data:/app/data
+
+  node-frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./shared-data:/usr/src/app/data   # Access data.json from here in Express
+    depends_on:
+      - flask-backend
