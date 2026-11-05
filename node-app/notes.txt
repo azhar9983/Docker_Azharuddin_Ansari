@@ -1,0 +1,27 @@
+'''
+
+Objective: Containerize a full-stack application — a Node.js/Express frontend and a Flask backend — using Docker and \
+Docker Compose, then push the images to Docker Hub and the code to GitHub.
+
+
+1. Frontend (Node.js with Express)
+Create a frontend using Express and Node.js.
+Include a form similar to the one from the Flask Assignment 2.
+Configure the form to send a request to the Flask backend.
+
+2. Backend (Flask)
+Use the Flask backend to handle the form submission and process the data.
+
+3. Folder Structure
+Organize the project with separate folders for the frontend and backend.
+
+4. Docker Configuration
+Create a Dockerfile for both the frontend and backend.
+Write a .yaml file (Docker Compose) to connect both services in the same network.
+Upload both images to Docker Hub, and push your whole code to GitHub. Add node_modules and other non-required files\
+ (e.g., .vscode) to .gitignore.
+
+Reference: https://github.com/Toto3107/flaskp
+
+
+'''
